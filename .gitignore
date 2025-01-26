@@ -1,0 +1,9 @@
+/v*
+/docs
+/dist
+/src/*.egg-info
+__pycache__
+pylintrc
+.*
+!/.gitignore
+
