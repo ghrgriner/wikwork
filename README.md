@@ -23,15 +23,15 @@ API documentation for global rules, content licensing, and terms of service.
 The documentation for the 'old' `/page/media-list/{title}/{revision}` API
 (which is used to get the list of audio files associated with a headword)
 is at:
-   https://[xx].wiktionary.org/api/rest_v1, where
-[xx] is replaced by the language code of the Wiktionary (eg,
+   `https://[xx].wiktionary.org/api/rest_v1`, where
+`[xx]` is replaced by the language code of the Wiktionary (eg,
    https://en.wiktionary.org/api/rest_v1 for the English Wiktionary).
 
 The documentation for the 'new' set of APIs (all other APIs used by the package)
 is at:
-   https://api.wikimedia.org/wiki/Core_REST_API
+   https://api.wikimedia.org/wiki/Core_REST_API.
 
-# Release Notes (v0.8)
+# Release Notes (v0.8.0)
 - The old set of APIs stopped working when retrieving the HTML and source
   for media files (i.e., pages in the 'File' namespace). Therefore, most old
   APIs were replaced with new ones. The 'etag' is handled as before for APIs
@@ -50,6 +50,7 @@ is at:
   (for a wikitext request), `html` (for an html request) or `bare`
   (for a request to get the bare page). This error is triggered when the
   request output doesn't have a 'latest' item that contains an 'id' item.
+- Comments in the module docstring were significantly reduced.
 
 # Functionality
 This package extracts word and audio file information from Wiktionary.
