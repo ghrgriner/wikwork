@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wikwork"
-version = "0.7.0"
+version = "0.8.0"
 authors = [{name = "Ray Griner", email = "rgriner_fwd@outlook.com"}]
 description = "Use REST APIs to get word and audio file information from Wiktionary™. Pages with audio file information are parsed, as are pages with word information for the German, Polish, and Czech dictionaries. Download of audio files is also supported."
 readme = "README.md"
